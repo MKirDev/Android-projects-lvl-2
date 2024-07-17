@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RickAndMorty</string>
+    <string name="button_back">Back</string>
+    <string name="origin_location">Origin location:</string>
+    <string name="name">Name</string>
+    <string name="last_known_location">Last known location:</string>
+    <string name="species">Species: </string>
+    <string name="swipe">Swipe down to try again</string>
+</resources>

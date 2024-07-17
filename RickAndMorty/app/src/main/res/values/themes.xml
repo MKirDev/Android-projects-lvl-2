@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RickAndMorty" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!--    Primary brand color. -->
+        <item name="colorPrimary">@color/dark_grayish_blue_first</item>
+        <item name="colorPrimaryVariant">@color/dark_grayish_blue_second</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/dark_grayish_blue_second</item>
+        <!--        Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_grayish_blue_first</item>
+        <item name="colorSecondaryVariant">@color/dark_grayish_blue_second</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">?attr/colorPrimary</item>
+        <!--        Status bar color.-->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+</style>
+    <style name="Theme.RickAndMorty" parent="Base.Theme.RickAndMorty" />
+</resources>
