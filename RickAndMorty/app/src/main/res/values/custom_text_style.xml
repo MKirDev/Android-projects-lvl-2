@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTextTitle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/amiko_bold</item>
+    </style>
+    <style name="CustomTextDescription" parent="CustomTextTitle">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/amiko</item>
+    </style>
+    <style name="CustomText" parent="CustomTextDescription">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
